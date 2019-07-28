@@ -3,6 +3,7 @@ A cryptographically secure portal to manage online elections, created as a part 
 Getting Started
 
 Follow these instructions to get a copy of the application on your computer :
+
 Prerequisites
 
     Go
@@ -28,9 +29,11 @@ This creates two executables in $GOPATH/bin :
     initialize-database
 
 Also, copy the sjcl.js file into assets/js/.
+
 Configuration
 
 You need to create a System Admin and populate the database with details of the students. You also need to create a configuration file which will export important values to the environment variables.
+
 Initializing the database
 
     Start MongoDB.
