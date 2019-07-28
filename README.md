@@ -1,5 +1,6 @@
 # ELECTION-MANAGER
 A cryptographically secure portal to manage online elections, created as a part of codefundo++ 2019.
+
 Getting Started
 
 Follow these instructions to get a copy of the application on your computer :
