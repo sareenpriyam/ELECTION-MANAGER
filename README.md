@@ -1,6 +1,19 @@
 # ELECTION-MANAGER
 A cryptographically secure portal to manage online elections, created as a part of codefundo++ 2019.
 
+This project aims to provide voters the
+comfort of voting on their own devices, without
+the hassle of standing in a queue at the polling
+booth. Voters register on the portal during the
+registration period by providing their voter id.
+This sends an authentication code to their
+official registered email addresses, which they use to
+choose a password. They then vote for their can-
+didates and the votes are encrypted and sent to
+the server. The votes are decrypted at the time of
+decleration on result.
+
+
 Getting Started
 
 Follow these instructions to get a copy of the application on your computer :
