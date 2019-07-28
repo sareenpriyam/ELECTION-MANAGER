@@ -19,7 +19,9 @@ Installing
 
 cd $GOPATH/src
 go get github.com/sareenpriyam/ELECTION-MANAGER/cmd/ELECTION-MANAGER
+
 go get github.com/sareenpriyam/ELECTION-MANAGER/cmd/initialize-database
+
 cd github.com/sareenpriyam/ELECTION-MANAGER
 go install ./...
 
@@ -61,9 +63,7 @@ Follow the template given in configurationTemplates/electionData.csv to create a
     The remaining values in each row are the details of the candidates. You need to fill two values for each candidate :
         The first value is the voter id of the candidate.
         The second value is the link to the manifesto of the candidate.
-        All these values occur alternately on the same row. Thus, the format for each row is:
-
-<Name Of The Post>,<Regular expression for voters>,<voter id of candidate 1>,<Manifesto of candidate 1>,<voter id of candidate 2>,<Manifesto of candidate 2>,<voter id of candidate 3>,<Manifesto of candidate 3>,...
+        All these values occur alternately on the same row. Thus, the format for each row is:<Name Of The Post>,<Regular expression for voters>,<voter id of candidate 1>,<Manifesto of candidate 1>,<voter id of candidate 2>,<Manifesto of candidate 2>,<voter id of candidate 3>,<Manifesto of candidate 3>,...
 
 Creating the configuration file
 
